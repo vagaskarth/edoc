@@ -21,7 +21,7 @@ class Welcome extends CI_Controller {
 
 	public function __construct(){
 		parent::__construct();
-		//$this->load->model('Physician_model');
+		$this->load->model('Physician_model');
 		 // $this->load->model('user','',TRUE);
 		 $this->load->library('session');
 	}
